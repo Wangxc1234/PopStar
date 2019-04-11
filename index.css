@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 18px;
+    color: azure;
+}
+body{
+    background-image: url(pic/back.jpg);
+    opacity: 0.85;   
+}
+#warper{
+    position: relative;/*table的定位属性为absolute；将其父级元素定位为relative*/
+    margin:0 auto;
+    width: 600px;
+    height:100%;
+    background-image: url(pic/background.png);
+    background-size: 100% 100%;
+}
+#targetScore, #currScore, #stepScore{
+    margin: 0px auto ;
+    width:200px;
+    height:40px;
+    line-height: 30px;
+    padding:15px auto;
+}
+#currScore{
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+}
+#stepScore{
+    opacity: 0;
+    text-align: center;
+    color: orange;
+}
